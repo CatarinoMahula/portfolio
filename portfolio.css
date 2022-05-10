@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(5, 3, 45);
+    box-sizing: border-box;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 170px;
+    height: 80px;
+}
+#menu ul{
+    display:flex;
+    justify-content: flex-end;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+}
+button{
+    background-color: brown;
+    padding: 10px;
+}
+#areawellcome{
+    display: flex;
+}
+.wellcome{
+    margin: 0px;
+}
+#intro{
+    text-align:left;
+   margin-left: 90px;
+}
+#imagem{
+    margin-left: 0px;
+}
+.invertido{
+    writing-mode: vertical-lr;
+}
+.i-social img{
+    height: 24px;
+    width: 24px;
+    margin: 5px;
+}
+#categorias{
+    display: flex;
+   justify-content: center;
+   background-color:rgb(11, 8, 73) ;
+}
+.i-categoria{
+    border-radius: 18px;
+    margin: 18px;
+    text-align: center;
+    color: #fff;
+}
+.pri-seccao{
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+}
+#cabeca{
+display: flex;
+color: #fff;
+margin-top: ;
+width: 100vw;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+ }
+.cards{
+    flex-wrap: wrap;
+    width: 75vw;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 165px;
+
+}
+.cartao{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+#botaofinal{
+    justify-content: center;
+    align-items: center;
+    margin-left: 710px;
+}
+.contactos{
+    display: flex;
+    justify-content: center;
+
+}
+.contacte li{
+    color: #fff;
+}
+#Experiencias{
+    display: flex;
+    justify-content: center;
+}
+#Saud{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px orange;
+}
